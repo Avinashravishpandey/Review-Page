@@ -1,0 +1,59 @@
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  .stars {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .star {
+    font-size: 2rem;
+    cursor: pointer;
+    margin: 0 5px;
+    color: #ccc;
+  }
+  
+  .star.filled {
+    color: #f39c12;
+  }
+  
+  .recommendation {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .recommendation button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+  }
+  
+  .recommendation button.selected {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
