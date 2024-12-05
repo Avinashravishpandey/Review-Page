@@ -1,8 +1,20 @@
+body{
+  background-color: rgb(11, 127, 166);
+background-image: url(istockphoto-1419766496-612x612.jpg);
+  background-size: cover;
+  
+}
+
 .container {
+  background-image: url(pexels-photo-268415.jpeg
+  );
+  background-size: cover;
+
+  /* color: #fff; */
     max-width: 500px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #fefefe;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
@@ -28,7 +40,7 @@
   }
   
   .star.filled {
-    color: #f39c12;
+    color: #f5e902;
   }
   
   .recommendation {
@@ -56,4 +68,10 @@
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+  }
+  button{
+    background-color: aquamarine;
+  margin-left: 220px;
+  font-size: medium;
+  border: 0;
   }

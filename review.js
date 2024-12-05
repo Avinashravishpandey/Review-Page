@@ -3,7 +3,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const communicationStars = document.querySelectorAll('#communication-stars .star');
     const recommendYes = document.getElementById('recommend-yes');
     const recommendNo = document.getElementById('recommend-no');
+    const Submit=document.getElementById("Submit");
   
+
+
     const handleStarClick = (stars, rating) => {
       stars.forEach((star, index) => {
         if (index < rating) {
@@ -36,5 +39,10 @@ document.addEventListener('DOMContentLoaded', () => {
     recommendNo.addEventListener('click', () => {
       recommendNo.classList.add('selected');
       recommendYes.classList.remove('selected');
+
     });
-  });
+    Submit.addEventListener('click',()=>{
+      alert("Successful");
+      location.reload();
+ } );
+  }); 
